@@ -2,68 +2,61 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <title>Мій магазин одягу</title>
+  <title>Мій сайт</title>
   <link href="styles/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
-    .navbar-brand {
-      font-size: 24px;
+    .search-form {
+      max-width: 400px;
+      margin: 0 auto;
     }
     .nav-link {
-      margin-left: 10px;
+      padding: 0.5rem 1rem;
     }
-    .dropdown-item {
-      cursor: pointer;
+    @media (max-width: 767px) {
+      .navbar-toggler {
+        order: -1;
+      }
+      .navbar-collapse {
+        justify-content: flex-end;
+      }
     }
-    
+    header{
+        background-color: #B6A9F7;
+        
+}
   </style>
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
-      <div class="container">
-        <a class="navbar-brand" href="#">Мій магазин одягу</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="search-input">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Пошук">
+  <header class="header1">
+    <div class="container">
+      <div class="row align-items-center py-2">
+        <div class="col-3">
+          <h1 class="text-center">baryga</h1>
+        </div>
+        <div class="col-6">
+          <div class="input-group search-form">
+            <input type="text" class="input_search" placeholder="Пошук" aria-label="Пошук">
             <div class="input-group-append">
-              <span class="input-group-text search-icon">
-                <img src="images/search.png" alt="Лупа" width="24" height="24">
-              </span>
+              <button class=" search_btn">
+                <img class="search_img" src="images/search.png" alt="Лупа">
+              </button>
             </div>
           </div>
         </div>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          
-            
-            <ul class="navbar-nav ml-auto align-items-center">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                UA
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageDropdown">
-                <a class="dropdown-item" href="#">EN</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img src="images/shopping_basket.png" alt="Кошик" width="24" height="24">
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Увійти</a>
-            </li>
-          </ul>
+        <div class="col-3">
+          <div class="text-right">
+            <div class="btn-group">
+              <button class="btn btn-link">UA</button>
+              <button class="btn btn-link">EN</button>
+              <img class="shopping_basket" src="images/shopping_basket.png" alt="Кошик">
+              <a class="login_btn">Увійти</a>
+              <a class="signup_btn">Реєстрація</a>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
-
-  <header class="header2 bg-purple text-white">
+    <header class="header2 bg-purple text-white">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -77,11 +70,10 @@
       </div>
     </div>
   </header>
+    </div>
+  </header>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-  <script src="./scripts/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
