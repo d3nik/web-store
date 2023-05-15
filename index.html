@@ -3,8 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Мій сайт</title>
+
   <link href="styles/style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
   <style>
     .search-form {
       max-width: 400px;
@@ -45,26 +51,41 @@
           </div>
         </div>
         <div class="col-3">
-          <div class="text-right">
             <div class="btn-group">
-              <button class="btn btn-link">UA</button>
-              <button class="btn btn-link">EN</button>
-              <img class="shopping_basket" src="images/shopping_basket.png" alt="Кошик">
-              <a class="login_btn">Увійти</a>
-              <a class="signup_btn">Реєстрація</a>
+              <div class="d-flex lang_container">
+                  <button class="lang_btn"><a>UA</a></button>
+                  <div class="vl"></div>
+                  <button class="lang_btn"><a>EN</a></button>
+              </div>
+
+              <div class="d-flex">
+                <a class="shopping_basket_a"><img class="shopping_basket" src="images/shopping_basket.png" alt="Кошик"></a>
+              </div>
+
+              <div class="d-flex sign_container">
+                <a class="sign signin_btn">Увійти</a>
+                <div class="sign_vl"></div>
+                <a class="sign signup_btn">Реєстрація</a>
+              </div>
             </div>
-          </div>
         </div>
       </div>
     <header class="header2 bg-purple text-white">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="d-flex justify-content-center">
-            <a href="#" class="text-white">Чоловікам</a>
-            <a href="#" class="text-white mx-3">Жінкам</a>
-            <a href="#" class="text-white">Дітям</a>
-            <a href="#" class="text-white mx-3">Розпродаж</a>
+          <div class="d-flex justify-content-center cattegories_container">
+            <button class="cattegorie_btn"><a href="#" class="text-white mx-3">Розпродаж</a></button>
+            <div class="cattegories_vl"></div>
+            <button class="cattegorie_btn"><a href="#" class="text-white mx-3">Чоловікам</a></button>
+            <div class="cattegories_vl"></div>
+            <button class="cattegorie_btn"><a href="#" class="text-white mx-3">Жінкам</a></button>
+            <div class="cattegories_vl"></div>
+            <button class="cattegorie_btn"><a href="#" class="text-white mx-3">Дітям</a></button>
+            <div class="cattegories_vl"></div>
+            <button class="cattegorie_btn"><a href="#" class="text-white mx-3">Новинки</a></button>
+            <div class="cattegories_vl"></div>
+            <button class="cattegorie_btn"><a href="#" class="text-white mx-3">Знижка дня</a></button>
           </div>
         </div>
       </div>
@@ -72,6 +93,10 @@
   </header>
     </div>
   </header>
+
+  <footer>
+    
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

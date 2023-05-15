@@ -1,5 +1,6 @@
 header {
   background-color: #B6A9F7;
+  padding-bottom: 6px;
 }
 
 .header1 {
@@ -35,6 +36,11 @@ header {
   background-color: #B6A9F7;
 }
 
+.text-center{
+  margin-right: -70px;
+  margin-top: -7px;
+}
+
 .search_img {
   width: 30px;
   height: 30px;
@@ -67,4 +73,111 @@ header {
   margin-right: -25px;
   border-radius: 1rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */
+
+.search_img{
+  transition: 0.3s;
+  border-radius: 1rem;
+}
+
+.search_img:hover{
+  filter: invert(1);
+  background-color: #b7babd;
+}
+
+.lang_container{
+  height: 35px;
+  margin-top: 43px;
+  margin-left: -45px;
+  border: solid #495057;
+  border-radius: 1rem;
+  border-width: 0.15rem;
+  overflow: hidden;
+}
+
+.lang_btn{
+  background-color: #B6A9F7;
+  border: none;
+  width: 42px;
+  height: 32px;
+  font-size: 1.1rem;
+  font-weight:500;
+  transition: 0.4s;
+}
+
+.vl {
+  border-left: 0.15rem solid #495057;
+  height: 35px;
+}
+
+.lang_btn:hover{
+  background-color: #897cc7;
+  color: white;
+  border: none;
+}
+
+.shopping_basket{
+  height: 35%;
+  margin: 37px 0 0 37px;
+  transition: 0.3s;
+}
+
+.shopping_basket:hover{
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.sign_container{
+  margin-top: 45px;
+  width: 42px;
+  height: 35px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.sign_vl{
+  margin: 5px 5px 0 5px;
+  border-left: 0.15rem solid #000;
+  height: 17px;
+}
+
+.sign{
+  color: white;
+}
+
+.sign:hover{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cattegories_container{
+  height: 20px;
+  margin-top: -25px;
+}
+
+.cattegories_vl{
+  border-left: 0.15rem solid #675e92;
+  height: 28px;
+}
+
+.cattegorie_btn{
+  background-color: #B6A9F7;
+  border: none;
+  height: 28px;
+  font-size: 1.1rem;
+  font-weight:500;
+  font-family: 'Nunito', sans-serif;
+  transition: 0.4s;
+  white-space: nowrap;
+}
+
+.cattegorie_btn a:hover{
+  text-decoration: none;
+}
+
+.cattegorie_btn:hover{
+  background-color: #675e92;
+  outline: 0 !important;
+}
