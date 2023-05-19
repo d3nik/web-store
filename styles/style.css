@@ -234,8 +234,11 @@ header {
   margin-bottom: 50px;
 }
 
-
-
+@media (max-width: 1000px) {
+  .сlothes-grid .container .row {
+    margin-left: 37px;
+  }
+}
 
 
 
