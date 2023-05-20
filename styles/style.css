@@ -143,7 +143,7 @@ header {
 
 .sign_vl{
   margin: 5px 5px 0 5px;
-  border-left: 0.15rem solid #000;
+  border-left: 0.15rem solid white;
   height: 17px;
 }
 
@@ -240,18 +240,120 @@ header {
   }
 }
 
+.payment-foto_visa{
+  width: 100px;
+  margin-top: 22px;
+  margin-left: 25px;
 
+}
 
+.payment-foto_mastercard{
+  width: 70px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
 
+.payment-foto_google-pay{
+  width: 150px;
+  height: 90px;
+  margin-left: 10px;
+  margin-top: -12px;
+}
 
+.payment-foto_apple-pay{
+  width: 72px;
+  height: 72px;
+  margin-left: 25px;
+}
 
+.payment-methods-background{
+  background-color: white;
+  border-radius: 2.5rem;
+  max-height: 160px;
+}
 
+.footer_position{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+.img-social{
+  width: 55px;
+  transition: 0.3s;
+}
 
+.img-social:hover{
+  filter: invert(1);
+  cursor: pointer;
+}
 
+.footer_h5{
+  font-size: 21px;
+}
 
+.payment_h5{
+  margin-left: 40px;
+}
 
+.payment_block{
+  margin-left: -80px;
+}
 
+.about-us_h5{
+  margin-left: 40px;
+}
 
+.social_networks{
+  margin-left: 40px;
+  
+}
+
+.footer-text{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.footer-text-a{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.footer-text-a:hover{
+  color: rgb(185, 183, 183);
+  text-decoration: none;
+}
+
+@media (max-width: 1000px){
+  .bg-secondary .container .footer_help{
+    margin-left: -40px;
+  }
+}
+
+@media (max-width: 1000px){
+  .bg-secondary .container .about-us_h5{
+    margin-left: -1px ;
+  }
+}
+
+@media (max-width: 1000px){
+  .bg-secondary .container .payment_block{
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 1000px){
+  .bg-secondary .container .social_networks{
+    margin-top: 15px  ;
+  }
+}
+
+@media (max-width: 1000px){
+  .bg-secondary .footer_position {
+    margin-right: 15px ;
+  }
+}
 
 
 
