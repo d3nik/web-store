@@ -137,7 +137,7 @@ header {
   margin-top: 45px;
   width: 42px;
   height: 35px;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 500;
 }
 
@@ -166,6 +166,24 @@ header {
   border-left: 0.15rem solid #675e92;
   height: 28px;
 }
+
+@media (max-width: 1000px){
+  .lang_container{
+    margin-left: -25px;
+  }
+  .shopping_basket{
+    margin-left: 17px;
+  }
+  .sign_container{
+    margin-left: -25px;
+    font-size: 1.15rem;
+  }
+  h1{
+    margin-left: -50px;
+  }
+}
+
+  
 
 .cattegorie_btn{
   background-color: #B6A9F7;
@@ -355,7 +373,121 @@ header {
   }
 }
 
+/* clothe-page */
+/* clothe-page */
+/* clothe-page */
+/* clothe-page */
+/* clothe-page */
 
 
 
+.small-image {
+  width: 80px; 
+  border-radius: 1rem;
+  height: 90px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+}
+
+.large-image{
+  border-radius: 2rem;
+  height: 450px;
+  margin-left: -100px;
+}
+
+.clothes-info{
+  margin-left: -150px;
+}
+
+.in-stock{
+  color: rgb(129, 233, 129);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.clothes-name{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.price{
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.clothes-info-text{
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.size-div{
+  text-align: center;
+}
+
+.size{
+  border: solid #495057;
+  border-radius: 0.7rem;
+  width: 90px;
+  font-weight: 500;
+}
+
+.button-buy{
+background-color: rgb(129, 233, 129);
+width: 115px;
+height: 50px;
+border: none;
+border-radius: 1rem;
+font-weight: 700;
+font-size: 19px;
+margin-bottom: 25px;
+margin-top: 10px;
+}
+
+.button-in-the-basket{
+  background-color: white;
+  width: 115px;
+  height: 50px;
+  border: solid black;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.clothing-section{
+  margin-top: 50px;
+}
+
+.under-border{
+  width: 1000px;
+  height: 30px;
+  margin-bottom: 50px;
+  border-bottom: 3px solid #373737;
+}
+
+.under-border p{
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: -25px;
+}
+
+.delivery img{
+  width: 30px;
+
+}
+
+.delivery p{
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.delivery h2{
+  font-size: 25px;
+}
+
+.delivery {
+  margin-bottom: 40px;
+}
 

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Мій сайт</title>
+
+  <link href="styles/style.css" rel="stylesheet" type="text/css">
+  <link href="styles/carousel.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+  <style>
+    .search-form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .nav-link {
+      padding: 0.5rem 1rem;
+    }
+    @media (max-width: 767px) {
+      .navbar-toggler {
+        order: -1;
+      }
+      .navbar-collapse {
+        justify-content: flex-end;
+      }
+    }
+    header{
+        background-color: #B6A9F7;
+        
+}
+  </style>
+</head>
+<body>
+  <header class="header1">
+    <div class="container">
+      <div class="row align-items-center py-2">
+        <div class="col-3">
+          <h1 class="text-center">сlothes</h1>
+        </div>
+        <div class="col-6">
+          <div class="input-group search-form">
+            <input type="text" class="input_search" placeholder="Пошук" aria-label="Пошук">
+            <div class="input-group-append">
+              <button class=" search_btn">
+                <img class="search_img" src="images/search.png" alt="Лупа">
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+            <div class="btn-group">
+              <div class="d-flex lang_container">
+                  <button class="lang_btn"><a>UA</a></button>
+                  <div class="vl"></div>
+                  <button class="lang_btn"><a>EN</a></button>
+              </div>
+
+              <div class="d-flex">
+                <a class="shopping_basket_a"><img class="shopping_basket" src="images/shopping_basket.png" alt="Кошик"></a>
+              </div>
+
+              <div class="d-flex sign_container">
+                <a class="sign signin_btn">Увійти</a>
+                <div class="sign_vl"></div>
+                <a class="sign signup_btn">Реєстрація</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    <header class="header2 bg-purple text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex justify-content-center cattegories_container">
+            <button class="cattegorie_btn"><a href="#" class="text-white mx-3">Розпродаж</a></button>
+            <div class="cattegories_vl"></div>
+            <button class="cattegorie_btn"><a href="#" class="text-white mx-3">Чоловікам</a></button>
+            <div class="cattegories_vl"></div>
+            <button class="cattegorie_btn"><a href="#" class="text-white mx-3">Жінкам</a></button>
+            <div class="cattegories_vl"></div>
+            <button class="cattegorie_btn"><a href="#" class="text-white mx-3">Дітям</a></button>
+            <div class="cattegories_vl"></div>
+            <button class="cattegorie_btn"><a href="#" class="text-white mx-3">Новинки</a></button>
+            <div class="cattegories_vl"></div>
+            <button class="cattegorie_btn"><a href="#" class="text-white mx-3">Знижка дня</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+    </div>
+  </header>
+   
+  <section class="first_slider">
+    <div class="gallery js-flickity"
+    data-flickity-options='{ "wrapAround": true }'>
+    <div class="gallery-cell"><img src="images/1.png" alt=""></div>
+    <div class="gallery-cell"><img src="images/2.png" alt=""></div>
+    <div class="gallery-cell"><img src="images/3.png" alt=""></div>
+    <div class="gallery-cell"><img src="images/4.png" alt=""></div>
+    <div class="gallery-cell"><img src="images/5.png" alt=""></div>
+    </div>
+  </section>
+  
+  <section class="clothing-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="small-image-container">
+            <img src="images/nike_foto.jpeg" alt="Small Image 1" class="small-image">
+          </div>
+          <div class="small-image-container">
+            <img src="images/nike_foto.jpeg" alt="Small Image 2" class="small-image">
+          </div>
+          <div class="small-image-container">
+            <img src="images/nike_foto.jpeg" alt="Small Image 3" class="small-image">
+          </div>
+        </div>
+        <div class=" col-md-6 col-sm-6 col-12">
+          <img src="images/nike_foto.jpeg" alt="Large Image" class="large-image">
+        </div>
+        <div class=" col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="clothes-info text-column">
+            <p class="in-stock">В наявності</p>
+            <p class="clothes-name">Футболка<br>Nike</p>
+            
+            <p class="price">951 грн</p>
+            <div class="size-div"><p class="size">36 / S / 44</p></div>
+            <div class="buttons">
+              <button class="button-buy">Придбати</button>
+              <button class="button-in-the-basket">У кошик</button>
+            </div>
+            <p class="clothes-info-text">Стан: <br>
+            Ідеальний</p>
+            <p class="clothes-info-text">Колір: <br>
+            Білий</p>
+            <p class="clothes-info-text">Сезон: <br>
+            Весна, Літо, Осінь</p>
+            <p class="clothes-info-text">Матеріал: <br>
+            Бавовна</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="container d-flex justify-content-center align-items-center ">
+    <div class="under-border"></div>
+    <div class="under-border"></div>
+  </div>
+  <div class="container d-flex justify-content-center align-items-center ">
+    <div class="under-border"><p>Футболка в ідеальному стан</p></div>
+    <div class="under-border"></div>
+  </div>
+  
+  <div class="delivery container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Способи доставки:</h2>
+        <ul>
+          <p>
+            <img src="images/ic_ukrposhta.png" alt="Укрпошта"> Укрпошта від 25 грн
+         </p>
+          <p>
+            <img src="images/ic_novaposhta.png" alt="Новапошта"> Новапошта від 50 грн
+          </p>
+        </ul>
+      </div>
+      
+      <div class="col-md-4">
+        <h2>Способи оплати:</h2>
+        <ul>
+        <p>
+            <img src="images/cash.png" alt="Готівка"> Готівка
+        </p>
+        <p>
+            <img src="images/card.png" alt="Оплата карткою"> Оплата карткою
+        </p>
+        </ul>
+      </div>
+      
+      <div class="col-md-4">
+        <h2>Повернення:</h2>
+        <p>
+          <img src="images/return.png" alt="Повернення"> Протягом 14 днів після отримання товару
+        </p>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer class="bg-secondary text-light">
+    <div class="container footer_position">
+        <div class="row">
+            <div class="footer_help col-lg-3 col-md-6 col-sm-6 col-12">
+                <h5 class="footer_h5">Допомога та інформація</h5>
+                <ul class="list-unstyled">
+                    <li><a class="footer-text-a" href="#">Доставка та оплата</a></li>
+                    <li><a class="footer-text-a" href="#">Гарантія та повернення</a></li>
+                </ul>
+            </div>
+            <div class="about-us_h5 col-lg-3 col-md-6 col-sm-6 col-12">
+                <h5 class="footer_h5">Про сайт</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="footer-text-a">Про нас</a></li>
+                    <li><a href="#" class="footer-text-a">Відгуки</a></li>
+                    <li><a href="#" class="footer-text-a">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="payment_block col-lg-3 col-md-6 col-sm-6 col-12">
+                <h5 class="footer_h5 payment_h5">Способи оплати</h5>
+                <div class="payment-methods payment-methods-background">
+                    <div class="row ">
+                        <div class="col-6">
+                            <img class="payment-foto_visa" src="images/1200px_visa_inc_1.png" alt="Payment Method 1" class="img-fluid">
+                        </div>
+                        <div class="col-6">
+                            <img class="payment-foto_mastercard" src="images/1280px_mastercard_logo_1.png" alt="Payment Method 2" class="img-fluid">
+                        </div>
+                        <div class="col-6">
+                            <img class="payment-foto_google-pay" src="images/google_pay_logo_1.png" alt="Payment Method 3" class="img-fluid">
+                        </div>
+                        <div class="col-6">
+                            <img class="payment-foto_apple-pay" src="images/5968144_1.png" alt="Payment Method 4" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" social_networks col-lg-3 col-md-6 col-sm-6 col-12">
+                <h5 class="footer_h5">Зв’язок</h5>
+                <p class="footer-text">0 800 011 468</p>
+                <p class="footer-text">сlothes@gmail.com</p>
+                <div>
+                    <a href=""><img src="images/instagram.png" alt="Social 1" class="img-social"></a>
+                    <a href=""><img src="images/facebook.png" alt="Social 2" class="img-social"></a>
+                    <a href=""><img src="images/twitter.png" alt="Social 3" class="img-social"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <script src="scripts/carousel.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
