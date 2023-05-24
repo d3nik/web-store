@@ -1,3 +1,11 @@
+.hidden{
+  display: none;
+}
+#reload:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+
 body{
   background-color: #b7babd;
 }
