@@ -220,9 +220,14 @@ header {
 }
 
 .clothes-image {
-  width: 210px;
-  height: 300px;
+  width: 75%;
+  border-radius: 1rem;
   object-fit: cover;
+}
+
+.clothes-title {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .clothes-price {
