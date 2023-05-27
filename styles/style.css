@@ -388,12 +388,18 @@ header {
   margin-bottom: 30px;
   margin-left: 70px;
 }
+.small-image:hover{
+  cursor: pointer;
+  border: solid #495057;
+}
 
 .large-image{
   border-radius: 2rem;
   height: 450px;
+  width: 450px;
   margin-left: -100px;
 }
+
 
 .clothes-info{
   margin-left: -150px;

@@ -32,6 +32,7 @@
         background-color: #B6A9F7;
         
 }
+
   </style>
 </head>
 <body>
@@ -111,17 +112,17 @@
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
           <div class="small-image-container">
-            <img src="images/nike_foto.jpeg" alt="Small Image 1" class="small-image">
+            <img src="images/nike_foto1.jpeg" alt="Small Image 1" class="small-image" onclick="changeLargeImage('images/nike_foto1.jpeg')">
           </div>
           <div class="small-image-container">
-            <img src="images/nike_foto.jpeg" alt="Small Image 2" class="small-image">
+            <img src="images/nike_foto2.jpeg" alt="Small Image 2" class="small-image" onclick="changeLargeImage('images/nike_foto2.jpeg')">
           </div>
           <div class="small-image-container">
-            <img src="images/nike_foto.jpeg" alt="Small Image 3" class="small-image">
+            <img src="images/nike_foto3.jpeg" alt="Small Image 3" class="small-image" onclick="changeLargeImage('images/nike_foto3.jpeg')">
           </div>
         </div>
         <div class=" col-md-6 col-sm-6 col-12">
-          <img src="images/nike_foto.jpeg" alt="Large Image" class="large-image">
+          <img id="largeImage" src="images/nike_foto1.jpeg" alt="Large Image" class="large-image">
         </div>
         <div class=" col-lg-3 col-md-6 col-sm-6 col-12">
           <div class="clothes-info text-column">
@@ -245,6 +246,7 @@
 </footer>
 
   <script src="scripts/carousel.js"></script>
+  <script src="scripts/index.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
